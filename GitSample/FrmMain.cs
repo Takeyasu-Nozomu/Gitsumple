@@ -87,7 +87,7 @@ namespace GitSample
             try
             {
                 //割り算追加分
-                //コメント
+                //コメント1
                 double a;
                 double b;
 
