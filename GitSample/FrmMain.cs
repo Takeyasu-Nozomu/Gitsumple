@@ -81,5 +81,25 @@ namespace GitSample
             }
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                double a;
+                double b;
+
+                string text1 = txtExpression1.Text;
+                string text2 = txtExpression2.Text;
+
+                a = double.Parse(text1);
+                b = double.Parse(text2);
+
+                txtResult.Text = (a / b).ToString();
+            }catch (Exception ex)
+            {
+                txtResult.Text = "計算できません。";
+            }
+        }
     }
 }
