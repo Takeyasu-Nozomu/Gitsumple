@@ -86,6 +86,7 @@ namespace GitSample
         {
             try
             {
+                //割り算追加分
                 double a;
                 double b;
 
